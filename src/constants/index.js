@@ -12,7 +12,7 @@ import {
   nodejs,
   mongodb,
   git,
-  // deepthoughts,
+  deepthoughts,
   sportstracker,
   monied,
   caterpillar,
@@ -224,7 +224,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: deepthoughts,
     source_code_link: "https://github.com/william-chalk/DeepThoughts",
     live_code_link: "https://mysterious-lake-82542.herokuapp.com/",
   },
@@ -246,7 +246,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: sportstracker,
     source_code_link:
       "https://github.com/william-chalk/My-Ultimate-Sports-Tracker",
     live_code_link:
