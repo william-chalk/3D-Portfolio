@@ -31,14 +31,14 @@ import caterpillar from "./company/caterpillar.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-// import deepthoughts from "./deepthoughts.png";
-// import monied from "./monied.png";
-// import sportstracker from "./sportstracker.png";
+import deepthoughts from "./deepthoughts.png";
+import monied from "./monied.png";
+import sportstracker from "./sportstracker.png";
 
 export {
-  // monied,
-  // deepthoughts,
-  // sportstracker,
+  monied,
+  deepthoughts,
+  sportstracker,
   bootstrap,
   mySql,
   logo,
