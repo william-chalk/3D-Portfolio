@@ -31,9 +31,9 @@ import caterpillar from "./company/caterpillar.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import deepthoughts from "./deepthoughts.PNG";
-import monied from "./monied.PNG";
-import sportstracker from "./sportstracker.PNG";
+import deepthoughts from "./deepthoughts.png";
+import monied from "./monied.png";
+import sportstracker from "./sportstracker.png";
 
 export {
   monied,
