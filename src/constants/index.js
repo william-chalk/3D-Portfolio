@@ -8,21 +8,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  deepthoughts,
+  sportstracker,
+  monied,
+  caterpillar,
+  kirklands,
+  bluepack,
   carrent,
   jobit,
   tripguide,
   threejs,
+  bootstrap,
+  cSharp,
+  mySql,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -81,10 +83,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -105,20 +103,24 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "C#",
+    icon: cSharp,
+  },
+  {
+    name: "MySQL",
+    icon: mySql,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Caterpillar",
+    icon: caterpillar,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -129,42 +131,27 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Ecommerce Admin",
+    company_name: "Bluepack Marketing",
+    icon: bluepack,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed scripts in Python to send promotional emails that have led to increase of business.",
+      "Developed article scraper to collect article titles and content, that would refresh anytime a new article was uploaded to ensure that the company was following trends.",
+      "Worked with the production floor to ensure the software put out would flow easy into their process.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Assistant Manager",
+    company_name: "Kirklands",
+    icon: kirklands,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted opening and closing duties to ensure everything was ready for each shift to run smoothly.",
+      "Entrusted to handle companies bank deposits and ensured all information was accurate.",
+      "Managed a team of (8) ensuring all duties were completed prior to shift end.",
     ],
   },
 ];
@@ -198,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Monied",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Monied is a fundraising platform for nonprofit organizations. The goal is to help ambitious ideas be brought to life, and bring its community of supporters together",
     tags: [
       {
         name: "react",
@@ -211,20 +198,43 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "graphql",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: monied,
+    source_code_link: "https://github.com/william-chalk/Monied",
+    live_code_link: "https://aqueous-scrubland-12058.herokuapp.com/",
   },
   {
-    name: "Job IT",
+    name: "Deep Thoughts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Deep Thoughts is a React.js application that mimics a social media website where users can create an account, manage friendships, and make posts.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deepthoughts,
+    source_code_link: "https://github.com/william-chalk/DeepThoughts",
+    live_code_link: "https://mysterious-lake-82542.herokuapp.com/",
+  },
+  {
+    name: "Ultimate Sports Tracker",
+    description:
+      "My Ultimate Sports Tracker is an application that generates a sports dashboard where you can see today's games, past games as well as statistics.",
+    tags: [
+      {
+        name: "html",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +242,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sportstracker,
+    source_code_link:
+      "https://github.com/william-chalk/My-Ultimate-Sports-Tracker",
+    live_code_link:
+      "https://william-chalk.github.io/My-Ultimate-Sports-Tracker/",
   },
 ];
 
