@@ -12,7 +12,7 @@ import {
   nodejs,
   mongodb,
   git,
-  deepthoughts,
+  // deepthoughts,
   sportstracker,
   monied,
   caterpillar,
